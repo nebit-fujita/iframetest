@@ -1,0 +1,17 @@
+.movieWraper {
+    position: relative
+    width: calc(100% - 10px);
+    margin: 0 auto;
+}
+
+.iframeWrap{
+    height: 0;
+    padding-bottom: 56.25% ;
+    background-color: black;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
