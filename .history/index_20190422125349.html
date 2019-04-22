@@ -16,6 +16,17 @@
 </div>
 </iframe>
 
+<script>
+    $('iframe')
+    .on('load', function(){
+    try {
+    $(this).height(this.contentWindow.document.documentElement.scrollHeight);
+    } catch (e) {
+    }
+    })
+    .trigger('load');
+    </script>
+
 </body>
 
 </html>
