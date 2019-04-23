@@ -1,19 +1,11 @@
-.iframeWrap{
-  text-align: center;
-}
-
-iframe{
-  text-align: center;
-}
-
-/* .movieWraper {
+.movieWraper {
     position: relative;
-    width: calc(90% - 10px);
+    height: calc(90% - 10px);
     margin: 0 auto;
 }
 
 .iframeWrap{
-    height: 0;
+    width: 0;
     padding-bottom: 62.5%;
 }
 
@@ -50,7 +42,7 @@ a{
       }
       .responsive-horizontal{
         position: relative;
-        padding-top: calc(9 / 16 * 90%); 
+        padding-top: calc(9 / 16 * 90%); /*56.25%でもOK。わかりやすいように式で出してます。*/
       }
       .responsive-horizontal iframe{
         position: absolute;
@@ -59,4 +51,3 @@ a{
         width: 90%;
         height: 90%;
       }
-       */
