@@ -1,14 +1,6 @@
-.iframeWrap{
-  text-align: center;
-}
-
-iframe{
-  text-align: center;
-}
-
-/* .movieWraper {
+.movieWraper {
     position: relative;
-    width: calc(90% - 10px);
+    width: calc(95% - 10px);
     margin: 0 auto;
 }
 
@@ -22,6 +14,7 @@ iframe {
     top: 0;
     left: 0;
     margin-bottom: 30px;
+
 }
 
 
@@ -32,31 +25,30 @@ a{
 
 .iframeObj{
     position:relative;
-    width:90%;
+    width:95%;
     }
     .iframeObj iframe{
     position:absolute;
     top:0;
     left:0;
-    width:90% !important;
-    height:90% !important
+    width:95% !important;
+    height:95% !important
     }
 
     .responsive-vertical{
-        max-width: 90%;
-        width: calc(90vh * 16 / 9);
-        max-height: 90vh;
+        max-width: 95%;
+        width: calc(95vh * 16 / 9);
+        max-height: 95vh;
         margin: 0 auto;
       }
       .responsive-horizontal{
         position: relative;
-        padding-top: calc(9 / 16 * 90%); 
+        padding-top: calc(9 / 16 * 95%); /*56.25%でもOK。わかりやすいように式で出してます。*/
       }
       .responsive-horizontal iframe{
         position: absolute;
         top: 0;
         left: 0;
-        width: 90%;
-        height: 90%;
+        width: 95%;
+        height: 95%;
       }
-       */

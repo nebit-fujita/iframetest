@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+    <a>
+テストページ</a>
+
+<iframe class="iframe" style="margin-top:5%;" width="1400" height="800" src="https://user-survey.mb.softbank.jp/q/YB5C0LTK">
+
+</iframe>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.0.js"
+  integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo="
+  crossorigin="anonymous"></script>
+<script src="jquery-1.9.0.min.js" type="text/javascript"></script>
+
+<script>
+$("iframe").on("load",function(){
+    $("iframe").contents().find('header').css("display","none");
+    $("iframe").contents().find('.contentInner').css("background-color: blue;");
+   });
+</script>
+
+
+<script>
+    jQuery(function(){
+        jQuery('#test').text('Hello World!');
+    });
+</script>
+
+
+
+</body>
+
+</html>

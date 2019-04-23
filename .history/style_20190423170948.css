@@ -1,11 +1,3 @@
-.iframeWrap{
-  text-align: center;
-}
-
-iframe{
-  text-align: center;
-}
-
 /* .movieWraper {
     position: relative;
     width: calc(90% - 10px);
@@ -21,7 +13,7 @@ iframe {
     position: absolute;
     top: 0;
     left: 0;
-    margin-bottom: 30px;
+
 }
 
 
@@ -60,3 +52,17 @@ a{
         height: 90%;
       }
        */
+
+       .iframe-parent {
+        position: relative;
+        height: 0;
+        overflow: hidden;
+        padding-top: 56.25%;
+     }
+     .iframe-parent iframe {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+     }

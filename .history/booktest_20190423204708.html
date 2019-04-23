@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <a>
+テストページ</a>
+<div class="iframeObj">
+<div class="iframeWrap">
+<iframe id="sample" style="margin-top:2%;" width="800" height="600" src="https://bookhodai.jp/?f=listing&gclid=EAIaIQobChMIgKXdlOjT4QIVg3ZgCh2OQw5nEAAYASAAEgKkqPD_BwE"></iframe>
+</div>
+</div>
+
+<script>
+        var iframe = document.getElementById('sample'),
+        doc = iframe.contentWindow.document;  // iframe内文書の document
+    
+    doc.querySelector('#hoge'); // iframe内文書の id="hoge" な要素ノード
+
+</script>
+
+
+</body>
+
+</html>
